@@ -4,7 +4,7 @@ namespace Query\SourceEngine\Mapper;
 
 use Query\SourceEngine\DataType;
 
-final class A2S_INFO
+final class A2S_INFO_OLD
 {
     public function __construct(string $payload = "") {
         $data = new DataType\A2S_INFO_OLD($payload);

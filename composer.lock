@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7ac1a95799dced48469aaed6b3c83725",
+    "packages": [
+        {
+            "name": "necodeo/buffer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/necodeo/buffer-php.git",
+                "reference": "3f1e43ee23a2fd2297716dcbb5761d0c681bcf83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/necodeo/buffer-php/zipball/3f1e43ee23a2fd2297716dcbb5761d0c681bcf83",
+                "reference": "3f1e43ee23a2fd2297716dcbb5761d0c681bcf83",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Buffer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dawid Smulewicz",
+                    "homepage": "https://dawid.smulewicz.pro/",
+                    "role": "Developer"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/necodeo/buffer-php/issues",
+                "source": "https://github.com/necodeo/buffer-php/tree/main"
+            },
+            "time": "2022-11-06T21:18:00+00:00"
+        },
+        {
+            "name": "necodeo/socket",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/necodeo/socket.git",
+                "reference": "308936463d3b360b5e05f90ebe32f4afe48ab795"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/necodeo/socket/zipball/308936463d3b360b5e05f90ebe32f4afe48ab795",
+                "reference": "308936463d3b360b5e05f90ebe32f4afe48ab795",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Socket\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dawid Smulewicz",
+                    "homepage": "https://dawid.smulewicz.pro/",
+                    "role": "Developer"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/necodeo/socket/issues",
+                "source": "https://github.com/necodeo/socket/tree/main"
+            },
+            "time": "2022-11-06T21:17:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "necodeo/buffer": 20,
+        "necodeo/socket": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
