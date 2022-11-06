@@ -19,6 +19,6 @@
 	},
 	"require": {
         "php": ">=7.4",
-        "necodeo/buffer": "dev-main"
+        "necodeo/buffer": ">=1.0.0"
     }
 }
