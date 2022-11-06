@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2fffbd274ffdc7da7f80ea63b00f5489",
+    "packages": [
+        {
+            "name": "necodeo/buffer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/necodeo/buffer-php.git",
+                "reference": "ada9d05d8df07098d713fd246dec9eef961f6f96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/necodeo/buffer-php/zipball/ada9d05d8df07098d713fd246dec9eef961f6f96",
+                "reference": "ada9d05d8df07098d713fd246dec9eef961f6f96",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Buffer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dawid Smulewicz",
+                    "homepage": "https://dawid.smulewicz.pro/",
+                    "role": "Developer"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/necodeo/buffer-php/issues",
+                "source": "https://github.com/necodeo/buffer-php/tree/main"
+            },
+            "time": "2022-11-06T21:02:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "necodeo/buffer": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
