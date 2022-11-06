@@ -46,6 +46,9 @@ class SourceEngine {
             case Enum\Packet::A2S_INFO_RESPONSE: {
                 return new Mapper\A2S_INFO($payload);
             }
+            case Enum\Packet::A2S_INFO_OLD_RESPONSE: {
+                return new Mapper\A2S_INFO($payload);
+            }
             case Enum\Packet::A2A_PING_RESPONSE: {
                 return new DataType\A2A_PING($payload);
             }
