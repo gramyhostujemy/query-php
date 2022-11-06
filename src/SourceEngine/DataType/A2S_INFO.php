@@ -2,7 +2,7 @@
 
 namespace Query\SourceEngine\DataType;
 
-use Helpers\Buffer;
+use Buffer;
 
 final class A2S_INFO
 {

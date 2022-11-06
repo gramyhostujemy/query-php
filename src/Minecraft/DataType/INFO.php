@@ -2,7 +2,7 @@
 
 namespace Query\Minecraft\DataType;
 
-use Helpers\Buffer;
+use Buffer;
 
 final class INFO
 {
