@@ -6,7 +6,7 @@ use Socket;
 use Query\SourceEngine\Enum;
 use Query\SourceEngine\Mapper;
 use Query\SourceEngine\DataType;
-use Buffer;
+use Buffer\Reader as Buffer;
 
 class SourceEngine {
     private $udp;

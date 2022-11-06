@@ -3,7 +3,7 @@
 namespace Query\SourceEngine\DataType;
 
 use Query\QueryException;
-use Buffer;
+use Buffer\Reader as Buffer;
 
 final class A2S_CHALLANGE
 {

@@ -2,7 +2,7 @@
 
 namespace Query\Minecraft\DataType;
 
-use Buffer;
+use Buffer\Reader as Buffer;
 
 final class INFO
 {
