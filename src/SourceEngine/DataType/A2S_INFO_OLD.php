@@ -18,8 +18,37 @@ final class A2S_INFO_OLD
         $this->players_max = $buffer->int8();
         $this->protocol = $buffer->int8();
         $this->server_type = $buffer->bytes(1);
+        switch ($this->server_type) {
+            case 'd': {
+                $this->server_type = "dedicated";
+                break;
+            }
+            case 'l': {
+                $this->server_type = "local";
+                break;
+            }
+            case 'p': {
+                $this->server_type = "proxy";
+                break;
+            }
+        }
         $this->environment = $buffer->bytes(1);
-        $this->visibility = $buffer->int8();
+        switch ($this->environment) {
+            case 'l': {
+                $this->environment = "linux";
+                break;
+            }
+            case 'w': {
+                $this->environment = "windows";
+                break;
+            }
+            case 'o':
+            case 'm': {
+                $this->environment = "mac";
+                break;
+            }
+        }
+        $this->visibility = $buffer->int8() ? true : false;
         $this->mod = $buffer->int8();
         if ($this->mod) {
             $this->link = $buffer->string();
@@ -30,7 +59,7 @@ final class A2S_INFO_OLD
             $this->type = $buffer->int8();
             $this->dll = $buffer->int8();
         }
-        $this->vac = $buffer->int8();
+        $this->vac = $buffer->int8() ? true : false;
         $this->bots = $buffer->int8();
     }
 }
