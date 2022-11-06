@@ -2,7 +2,7 @@
     "name": "gramyhostujemy/query",
 	"type": "library",
     "description": "",
-    "version": "1.0.1",
+    "version": "dev-main",
     "keywords": [],
 	"license": "MIT",
 	"authors": [
@@ -19,6 +19,6 @@
 	},
 	"require": {
         "php": ">=7.4",
-        "necodeo/buffer": ">=1.0.0"
+        "necodeo/buffer": "dev-main"
     }
 }
