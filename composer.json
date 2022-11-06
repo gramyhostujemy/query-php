@@ -19,6 +19,7 @@
 	},
 	"require": {
         "php": ">=7.4",
-        "necodeo/buffer": "dev-main"
+        "necodeo/buffer": "dev-main",
+        "necodeo/socket": "dev-main"
     }
 }
