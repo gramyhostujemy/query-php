@@ -1,0 +1,6 @@
+{
+    "name": "gramyhostujemy/query",
+    "require": {
+        "php": ">=7.4"
+    }
+}
